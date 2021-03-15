@@ -8,3 +8,4 @@ add_executable(227_basic-calculator-ii 227_basic-calculator-ii/main.cpp)
 
 add_executable(03_find_repeat_num Aim-At-Offer/03_find_repeat_num/main.cpp)
 add_executable(04_lookup-in-a-two-dimensional-array Aim-At-Offer/04_lookup-in-a-two-dimensional-array/main.cpp)
+add_executable(05_replace-spaces Aim-At-Offer/05_replace-spaces/main.cpp)
