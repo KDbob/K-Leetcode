@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1_two-sum 1_two-sum/main.cpp)
 add_executable(227_basic-calculator-ii 227_basic-calculator-ii/main.cpp)
+add_executable(119_number-of-1-bits 119_number-of-1-bits/main.cpp)
 
 add_executable(03_find-repeat-num Aim-At-Offer/03_find-repeat-num/main.cpp)
 add_executable(04_lookup-in-a-two-dimensional-array Aim-At-Offer/04_lookup-in-a-two-dimensional-array/main.cpp)
