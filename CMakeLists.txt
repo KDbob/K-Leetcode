@@ -4,6 +4,7 @@ project(K_Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1_two-sum Leetcode/1_two-sum/main.cpp)
+add_executable(26_remove-duplicates-from-sorted-array Leetcode/26_remove-duplicates-from-sorted-array/main.cpp)
 add_executable(227_basic-calculator-ii Leetcode/227_basic-calculator-ii/main.cpp)
 add_executable(119_number-of-1-bits Leetcode/119_number-of-1-bits/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list-iterator/main.cpp)
