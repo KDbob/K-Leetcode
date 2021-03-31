@@ -10,6 +10,7 @@ add_executable(119_number-of-1-bits Leetcode/119_number-of-1-bits/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list-iterator/main.cpp)
 add_executable(153_find-minimum-in-rotated-sorted-array-i Leetcode/153_find-minimum-in-rotated-sorted-array-i/main.cpp)
 add_executable(154_find-minimum-in-rotated-sorted-array-ii Leetcode/154_find-minimum-in-rotated-sorted-array-ii/main.cpp)
+add_executable(189_rotate-array Leetcode/189_rotate-array/main.cpp)
 
 add_executable(03_find-repeat-num Aim-At-Offer/03_find-repeat-num/main.cpp)
 add_executable(04_lookup-in-a-two-dimensional-array Aim-At-Offer/04_lookup-in-a-two-dimensional-array/main.cpp)
