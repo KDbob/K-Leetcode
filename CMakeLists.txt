@@ -12,6 +12,7 @@ add_executable(154_find-minimum-in-rotated-sorted-array-ii Leetcode/154_find-min
 add_executable(189_rotate-array Leetcode/189_rotate-array/main.cpp)
 add_executable(227_basic-calculator-ii Leetcode/227_basic-calculator-ii/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list-iterator/main.cpp)
+add_executable(350_intersection-of-two-arrays-ii Leetcode/350_intersection-of-two-arrays-ii/main.cpp)
 
 
 add_executable(03_find-repeat-num Aim-At-Offer/03_find-repeat-num/main.cpp)
