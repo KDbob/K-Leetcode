@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1_two-sum Leetcode/1_two-sum/main.cpp)
 add_executable(26_remove-duplicates-from-sorted-array Leetcode/26_remove-duplicates-from-sorted-array/main.cpp)
+add_executable(36_valid-sudoku Leetcode/36_valid-sudoku/main.cpp)
 add_executable(66_plus-one Leetcode/66_plus-one/main.cpp)
 add_executable(119_number-of-1-bits Leetcode/119_number-of-1-bits/main.cpp)
 add_executable(136_single-number Leetcode/136_single-number/main.cpp)
