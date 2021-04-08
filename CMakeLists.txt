@@ -28,3 +28,4 @@ add_executable(07_rebuilt-binary-tree Aim-At-Offer/07_rebuilt-binary-tree/main.c
 add_executable(08_Implement_the_queue_with_two_stacks Aim-At-Offer/08_Implement_the_queue_with_two_stacks/main.cpp)
 add_executable(09_fibonacci Aim-At-Offer/09_fibonacci/main.cpp)
 add_executable(10_frog-jump-step-problem Aim-At-Offer/10_frog-jump-step-problem/main.cpp)
+add_executable(11_find-minimum-in-rotated-sorted-array Aim-At-Offer/11_find-minimum-in-rotated-sorted-array/main.cpp)
