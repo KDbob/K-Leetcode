@@ -4,6 +4,7 @@ project(K_Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1_two-sum Leetcode/1_two-sum/main.cpp)
+add_executable(7_7_reverse-integer Leetcode/7_reverse-integer/main.cpp)
 add_executable(26_remove-duplicates-from-sorted-array Leetcode/26_remove-duplicates-from-sorted-array/main.cpp)
 add_executable(36_valid-sudoku Leetcode/36_valid-sudoku/main.cpp)
 add_executable(48_rotate-image Leetcode/48_rotate-image/main.cpp)
@@ -29,3 +30,4 @@ add_executable(08_Implement_the_queue_with_two_stacks Aim-At-Offer/08_Implement_
 add_executable(09_fibonacci Aim-At-Offer/09_fibonacci/main.cpp)
 add_executable(10_frog-jump-step-problem Aim-At-Offer/10_frog-jump-step-problem/main.cpp)
 add_executable(11_find-minimum-in-rotated-sorted-array Aim-At-Offer/11_find-minimum-in-rotated-sorted-array/main.cpp)
+add_executable(12_path-in-the-matrix Aim-At-Offer/12_path-in-the-matrix/main.cpp)
