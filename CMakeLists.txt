@@ -19,6 +19,7 @@ add_executable(283_move-zeroes Leetcode/283_move-zeroes/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list-iterator/main.cpp)
 add_executable(344_reverse-string Leetcode/344_reverse-string/main.cpp)
 add_executable(350_intersection-of-two-arrays-ii Leetcode/350_intersection-of-two-arrays-ii/main.cpp)
+add_executable(387_first-unique-character-in-a-string Leetcode/387_first-unique-character-in-a-string/main.cpp)
 
 
 add_executable(03_find-repeat-num Aim-At-Offer/03_find-repeat-num/main.cpp)
