@@ -16,7 +16,7 @@ int firstUniqChar(string s) {
             q.emplace(s[i], i);
         } else {
             mp[s[i]] = -1;
-            if (!q.empty() && mp[q.front().first] == -1) {  // 说明有个出现第二次的字母
+            while (!q.empty() && mp[q.front().first] == -1) {  // 说明有个出现第二次的字母
                 q.pop();
             }
         }
@@ -29,5 +29,6 @@ int main() {
 //    printf("%d\n", firstUniqChar(s));
     string s1 = "loveleetcode";
     printf("%d\n", firstUniqChar(s1));
-
+    string s2 = "itwqbtcdprfsuprkrjkausiterybzncbmdvkgljxuekizvaivszowqtmrttiihervpncztuoljftlxybpgwnjb";
+    printf("%d\n", firstUniqChar(s2));
 }

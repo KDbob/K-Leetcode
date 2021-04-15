@@ -15,6 +15,7 @@ add_executable(153_find-minimum-in-rotated-sorted-array-i Leetcode/153_find-mini
 add_executable(154_find-minimum-in-rotated-sorted-array-ii Leetcode/154_find-minimum-in-rotated-sorted-array-ii/main.cpp)
 add_executable(189_rotate-array Leetcode/189_rotate-array/main.cpp)
 add_executable(227_basic-calculator-ii Leetcode/227_basic-calculator-ii/main.cpp)
+add_executable(242_valid-anagram Leetcode/242_valid-anagram/main.cpp)
 add_executable(283_move-zeroes Leetcode/283_move-zeroes/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list-iterator/main.cpp)
 add_executable(344_reverse-string Leetcode/344_reverse-string/main.cpp)
