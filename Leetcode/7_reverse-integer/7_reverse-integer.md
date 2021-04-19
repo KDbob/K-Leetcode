@@ -90,6 +90,27 @@ int reverse(int x) {
 
 > 即：rev==INT_MAX/10此时还不知道是否溢出，但是X如果>7则溢出。
 
+### 代码实现
+
+```c++
+class Solution {
+public:
+    int reverse(int x) {
+        int rev = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            x /= 10;
+            if (rev > INT_MAX/10 || (rev == INT_MAX / 10 && pop > 7)) return 0;
+            if (rev < INT_MIN/10 || (rev == INT_MIN / 10 && pop < -8)) return 0;
+            rev = rev * 10 + pop;
+        }
+        return rev;
+    }
+};
+
+// 此处的 INT_MAX/10 可以预防2147483646X这种位数已经超出了MAX位数的数
+```
+
 ##### 但是7463847413根本就不可能出现，所以加一条判断就好了，那么最后的代码是：
 
 ```c++
