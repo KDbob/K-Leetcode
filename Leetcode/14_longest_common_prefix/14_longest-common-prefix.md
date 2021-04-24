@@ -40,18 +40,24 @@ strs[i] 仅由小写英文字母组成
 0. 选取数组中strs[0]作为外循环的字符串
 
 1. 外循环：指针i遍历字符串的长度，str[0].length
+   
    - 取str[0]的每个字符作为对比的公共字符
 2. 内循环：指针j遍历每组的字符串的第i个字符：`strs[j][i]`。比较和`strs[0][i]`的差异
    - 相同：继续遍历下一个字符
+   
+     > 且strs[j]长度未超过i的[细节]
+   
    - 不同：说明`strs[0][0~i]`是最长公共前缀
+   
+     > 或者strs[j]的长度恰好等于i
 
 #### 代码实现
 
 ```c++
 string longestCommonPrefix(vector<string>& strs) {
         string fir_str = strs[0];
-        int fir_len = strs[0].length();
-        for (int i = 0; i < fir_str.length(); ++i) {
+  			int fir_len = strs[0].length();
+        for (int i = 0; i < fir_len; ++i) {
             char ch = fir_str[i];
             for (int j = 1; j < strs.size(); ++j) {
                 string str = strs[j];
@@ -82,18 +88,16 @@ string longestCommonPrefix(vector<string>& strs) {
 
   ```c++
   // 改写前
-if (str.length() <= fir_len && ch == str[i]) {
+if (str.length() < i && ch == str[i]) {
   
   } else {
     return fir_str.substr(0, i);
   }
   // 取反即可
-  if (str.length() != fir_len || ch != str[i]) {// 由于是在循环体中，str.length() > fir_len 可以用!=来代替
+  if (str.length() != fir_len || ch != str[i]) {// 由于是在循环体中，str.length() > fir_len 可以用==来代替
   
   } else {
     return fir_str.substr(0, i);
   }
-  
-  
   ```
 
