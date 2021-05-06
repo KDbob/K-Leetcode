@@ -17,6 +17,7 @@ add_executable(66_plus-one Leetcode/66_plus-one/main.cpp)
 add_executable(119_number-of-1-bits Leetcode/119_number-of-1-bits/main.cpp)
 add_executable(125_valid-palindrome Leetcode/125_valid-palindrome/main.cpp)
 add_executable(136_single-number Leetcode/136_single-number/main.cpp)
+add_executable(141_linked-list-cycle Leetcode/Linked-list/141_linked-list-cycle/main.cpp)
 add_executable(153_find-minimum-in-rotated-sorted-array-i Leetcode/153_find-minimum-in-rotated-sorted-array-i/main.cpp)
 add_executable(154_find-minimum-in-rotated-sorted-array-ii Leetcode/154_find-minimum-in-rotated-sorted-array-ii/main.cpp)
 add_executable(189_rotate-array Leetcode/189_rotate-array/main.cpp)
@@ -29,7 +30,6 @@ add_executable(341_flatten-nested-list-iterator Leetcode/341_flatten-nested-list
 add_executable(344_reverse-string Leetcode/344_reverse-string/main.cpp)
 add_executable(350_intersection-of-two-arrays-ii Leetcode/350_intersection-of-two-arrays-ii/main.cpp)
 add_executable(387_first-unique-character-in-a-string Leetcode/387_first-unique-character-in-a-string/main.cpp)
-
 
 add_executable(03_find-repeat-num Aim-At-Offer/03_find-repeat-num/main.cpp)
 add_executable(04_lookup-in-a-two-dimensional-array Aim-At-Offer/04_lookup-in-a-two-dimensional-array/main.cpp)

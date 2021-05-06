@@ -1,7 +1,5 @@
 #### [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
 
-难度简单965收藏分享切换为英文接收动态反馈
-
 请判断一个链表是否为回文链表。
 
 **示例 1:**
