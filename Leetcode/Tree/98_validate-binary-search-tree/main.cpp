@@ -19,14 +19,14 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-/** 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
+/** 给定一个二叉树，判断其是否是一个有效的二叉搜索树。(算子)
  * 《递归（利用性质）》
  * @param node 二叉树的节点
  * @param lower 节点值的取值范围：下界
  * @param upper 节点值的取值范围：上界
  * @return 是否有效的二叉树
  */
-bool valid(TreeNode *node, int lower, int upper) {
+bool valid(TreeNode *node, long long lower, long long upper) {
     if (node == nullptr) {
         return true;
     }
@@ -38,7 +38,7 @@ bool valid(TreeNode *node, int lower, int upper) {
 
 
 bool isValidBST(TreeNode *root) {
-    return valid(root, INT_MIN, INT_MAX);
+    return valid(root, LONG_MIN, LONG_MAX);
 }
 
 
@@ -55,12 +55,12 @@ int main() {
 //    2
 //    / \
 //  1   3
-//    TreeNode *tree1 = new TreeNode(2, new TreeNode(1), new TreeNode(3));
-//    if (isValidBST(tree1)) {
-//        printf("is valid BST\n");
-//    } else {
-//        printf("not valid BST\n");
-//    }
+    TreeNode *tree1 = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+    if (isValidBST(tree1)) {
+        printf("is valid BST\n");   // expect: ture
+    } else {
+        printf("not valid BST\n");
+    }
 //    5
 //    / \
 //  1   4
@@ -70,6 +70,6 @@ int main() {
     if (isValidBST(tree2)) {
         printf("is valid BST\n");
     } else {
-        printf("not valid BST\n");
+        printf("not valid BST\n");  // expect: false
     }
 }
