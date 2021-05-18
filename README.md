@@ -6,7 +6,7 @@ Leetcode practice
 > Each Topic directory contains code and note.The main.cpp contains test cases and can executed directly。
 >
 > 每个题目文件夹包含源码和笔记。其中main.cpp里面包含测试用例，可以直接执行。
-
+```
 ├── Aim-At-Offer
 │   ├── 03_find-repeat-num
 │   │   ├── 03_find_repeat_num.md
@@ -17,6 +17,8 @@ Leetcode practice
 │   │   ├── 119_number-of-1-bits.md
 │   │   └── main.cpp
 ├── README.md
+```
+
 
 ### Order of Topic
 

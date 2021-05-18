@@ -18,6 +18,7 @@ add_executable(98_validate-binary-search-tree Leetcode/Tree/98_validate-binary-s
 add_executable(101_symmetric-tree Leetcode/Tree/101_symmetric-tree/main.cpp)
 add_executable(102_binary-tree-level-order-traversal Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp)
 add_executable(104_maximum-depth-of-binary-tree Leetcode/Tree/104_maximum-depth-of-binary-tree/main.cpp)
+add_executable(108_convert-sorted-array-to-binary-search-tree Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/main.cpp)
 add_executable(119_number-of-1-bits Leetcode/119_number-of-1-bits/main.cpp)
 add_executable(125_valid-palindrome Leetcode/125_valid-palindrome/main.cpp)
 add_executable(136_single-number Leetcode/136_single-number/main.cpp)
