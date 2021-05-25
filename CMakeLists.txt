@@ -29,6 +29,7 @@ add_executable(141_linked-list-cycle Leetcode/Linked-list/141_linked-list-cycle/
 add_executable(153_find-minimum-in-rotated-sorted-array-i Leetcode/153_find-minimum-in-rotated-sorted-array-i/main.cpp)
 add_executable(154_find-minimum-in-rotated-sorted-array-ii Leetcode/154_find-minimum-in-rotated-sorted-array-ii/main.cpp)
 add_executable(189_rotate-array Leetcode/Array/189_rotate-array/main.cpp)
+add_executable(198_house-robber Leetcode/Dynamic/198_house-robber/main.cpp)
 add_executable(227_basic-calculator-ii Leetcode/227_basic-calculator-ii/main.cpp)
 add_executable(237_delete-node-in-a-linked-list Leetcode/Linked-list/237_delete-node-in-a-linked-list/main.cpp)
 add_executable(234_palindrome-linked-list Leetcode/Linked-list/234_palindrome-linked-list/main.cpp)
