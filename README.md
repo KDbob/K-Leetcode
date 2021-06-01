@@ -40,5 +40,12 @@ Leetcode practice
 | [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)   | [解题说明](Leetcode/Design/155_min-stack/155_min-stack.md)、[code](Leetcode/Design/155_min-stack/main.cpp) | 辅助栈✅             |
 | [384. 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [解题说明](Leetcode/Design/384_shuffle-an-array/384_shuffle-an-array.md)、[code](Leetcode/Design/384_shuffle-an-array/main.cpp) | 随机抽取✅、洗牌算法 |
 
+#### 数学问题
+
+| 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
+| [204. 计数质数](https://leetcode-cn.com/problems/count-primes/) | [解题说明](Leetcode/Math/204_count-primes/204_count-primes.md)、[code](Leetcode/Math/204_count-primes/main.cpp) | 枚举法✅、埃氏筛✅ |
+| [412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [code](Leetcode/Math/412_fizz-buzz/main.cpp)                 | 字符串连接✅      |
+
 
 

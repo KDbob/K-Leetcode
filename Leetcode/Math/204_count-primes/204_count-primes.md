@@ -120,13 +120,11 @@ int countPrimes(int n) {
 ```C++
 int countPrimes2(int n) {
     vector<bool> isPrimeArr(n, true);
-    isPrimeArr[0] = false;
-    isPrimeArr[1] = false;
     int sum = 0;
-    for (int i=2; i < n; ++i) {
+    for (int i = 2; i < n; ++i) {
         if (isPrimeArr[i]) {
             sum++;
-            if (i * i < n) {
+            if ((long long) i * i < n) {
                 for (int j = i * i; j < n; j += i) {
                     isPrimeArr[j] = false;
                 }

@@ -31,18 +31,19 @@ int countPrimes1(int n) {
     return sum;
 }
 
-
-
-
+/**
+ * 统计所有小于非负整数 n 的质数的数量。
+ * 《方法二：》
+ * @param n 非负整数
+ * @return 质数的总数
+ */
 int countPrimes2(int n) {
     vector<bool> isPrimeArr(n, true);
-    isPrimeArr[0] = false;
-    isPrimeArr[1] = false;
     int sum = 0;
-    for (int i=2; i < n; ++i) {
+    for (int i = 2; i < n; ++i) {
         if (isPrimeArr[i]) {
             sum++;
-            if (i * i < n) {
+            if ((long long) i * i < n) {
                 for (int j = i * i; j < n; j += i) {
                     isPrimeArr[j] = false;
                 }
@@ -54,8 +55,9 @@ int countPrimes2(int n) {
 
 
 
-
 int main() {
 //    isPrime(2);
-    printf("total prime num is %d\n", countPrimes2(100));     // expect: 4
+    printf("total prime num is %d\n", countPrimes1(10));     // expect: 4
+    printf("total prime num is %d\n", countPrimes2(100));     // expect: 25
+
 }
