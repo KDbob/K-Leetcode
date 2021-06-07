@@ -45,6 +45,7 @@ Leetcode practice
 | 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------- |
 | [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [解题说明](Leetcode/Math/13_roma-to-int/13_roman-to-integer.md)、[code](Leetcode/Math/13_roma-to-int/main.cpp) | 模拟法✔️                           |
+| [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [解题说明](Leetcode/Math/119_number-of-1-bits/119_number-of-1-bits.md)、[code](Leetcode/Math/119_number-of-1-bits/main.cpp) | 循环检查✔️、位运算优化✔️            |
 | [204. 计数质数](https://leetcode-cn.com/problems/count-primes/) | [解题说明](Leetcode/Math/204_count-primes/204_count-primes.md)、[code](Leetcode/Math/204_count-primes/main.cpp) | 枚举法✔️、埃氏筛✔️                  |
 | [326. 3的幂](https://leetcode-cn.com/problems/power-of-three/) | [解题说明](Leetcode/Math/326_power-of-three/326_power-of-three.md)、[code](Leetcode/Math/326_power-of-three/main.cpp) | 三进制✔️、对数公式✔️、利用整数限制✔️ |
 | [412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [code](Leetcode/Math/412_fizz-buzz/main.cpp)                 | 字符串连接✔️                       |
