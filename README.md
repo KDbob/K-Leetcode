@@ -56,4 +56,5 @@ Leetcode practice
 | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [解题说明](Leetcode/Other/20_valid-parentheses/20_valid-parentheses.md)、[code](Leetcode/Other/20_valid-parentheses/main.cpp) | 栈匹配✔️                |
 | [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [解题说明](Leetcode/Other/190_reverse-bits/190_reverse-bits.md)、[code](Leetcode/Other/190_reverse-bits/main.cpp) | 逐位颠倒✔️、位运算分治  |
 | [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [解题说明](Leetcode/Other/119_number-of-1-bits/119_number-of-1-bits.md)、[code](Leetcode/Other/119_number-of-1-bits/main.cpp) | 循环检查✔️、位运算优化✔️ |
+| [缺失数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | [解题说明](Leetcode/Other/xxx_missing-number/xxx_missing-number.md)、[code](Leetcode/Other/xxx_missing-number/main.cpp) | 异或运算✔️              |
 

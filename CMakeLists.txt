@@ -61,4 +61,7 @@ add_executable(10_frog-jump-step-problem Aim-At-Offer/10_frog-jump-step-problem/
 add_executable(11_find-minimum-in-rotated-sorted-array Aim-At-Offer/11_find-minimum-in-rotated-sorted-array/main.cpp)
 add_executable(12_path-in-the-matrix Aim-At-Offer/12_path-in-the-matrix/main.cpp)
 add_executable(24_reverse-linked-list Aim-At-Offer/24_reverse-linked-list/main.cpp)
+
+add_executable(53_missing-number Aim-At-Offer/53_missing-number/main.cpp)
+add_executable(xxx_missing-number Leetcode/Other/xxx_missing-number/main.cpp)
 add_executable(67_myAtoi Aim-At-Offer/67_myAtoi/main.cpp)
