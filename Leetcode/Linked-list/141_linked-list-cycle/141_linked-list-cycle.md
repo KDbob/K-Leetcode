@@ -75,7 +75,7 @@
 ### 算法实现
 
 ```C++
-bool hasCycle(ListNode *head) {
+bool hasCycle1(ListNode *head) {
     unordered_set<ListNode *> seen;
     while (head != nullptr) {
         if (seen.count(head)) {
@@ -88,11 +88,37 @@ bool hasCycle(ListNode *head) {
 }
 ```
 
-## 方法二：快慢指针（实现$O(1)$空间复杂度）（TODO）
+
+
+## 方法二：快慢指针（实现$O(1)$空间复杂度）
 
 > Floyd 判圈算法
 
+假想「乌龟」和「兔子」在链表上移动，「兔子」跑得快，「乌龟」跑得慢。当「乌龟」和「兔子」从链表上的同一个节点开始移动时，如果该链表中没有环，那么「兔子」将一直处于「乌龟」的前方；如果该链表中有环，那么「兔子」会先于「乌龟」进入环，并且一直在环内移动。等到「乌龟」进入环时，由于「兔子」的速度快，它一定会在某个时刻与乌龟相遇，即套了「乌龟」若干圈。
 
+## 算法实现
+
+```c++
+bool hasCycle2(ListNode *head) {
+    if (head == nullptr || head->next == nullptr) {
+        return false;
+    }
+    ListNode *slow = head;
+    ListNode *fast = head->next;
+    while (slow != fast) {
+        if (fast->next == nullptr || fast->next == nullptr) {   // 这里只需要判断fash的后两个是否为空即可
+            return false;
+        }
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return true;
+}
+```
+
+注：这里快慢指针的初始位置不相同，是因为使用了while循环：判定条件先执行。
+
+> 改成do-while形式快慢指针可以在同一位置（head）
 
 # 知识点总结
 
@@ -103,6 +129,43 @@ bool hasCycle(ListNode *head) {
   unordered_set<ListNode *> seen;
   seen.count(head) 	// 判断在集合中是否出现过
   seen.insert(head)	// 保存到集合中
+  ```
+
+- C语言中的函数指针使用
+
+  > [参考博客地址](https://blog.csdn.net/zj1131190425/article/details/92065897)
+
+  ```c++
+  #include <iostream>
+  #include <algorithm>
+  #include <cmath>
+   
+  using namespace std;
+   
+  double cal_m1(int lines)
+  {
+  	return 0.05 * lines;
+  } 
+   
+  double cal_m2(int lines)
+  {
+  	return 0.5 * lines;
+  }
+   
+  void estimate(int line_num, double (*pf)(int lines))
+  {
+  	cout << "The " << line_num << " need time is: " << (*pf)(line_num) << endl; 
+  }
+   
+   
+  int main(int argc, char *argv[])
+  {
+  	int line_num = 10;
+  	// 函数名就是指针，直接传入函数名
+  	estimate(line_num, cal_m1);
+  	estimate(line_num, cal_m2); 
+  	return 0;
+  }
   ```
 
   
