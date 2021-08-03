@@ -12,6 +12,7 @@ add_executable(20_valid-parentheses Leetcode/Other/20_valid-parentheses/20_valid
 add_executable(21_merge-two-sorted-lists Leetcode/Linked-list/21_merge-two-sorted-lists/main.cpp)
 add_executable(26_remove-duplicates-from-sorted-array Leetcode/Array/26_remove-duplicates-from-sorted-array/main.cpp)
 add_executable(28_implement-strstr Leetcode/String/28_implement-strstr/main.cpp)
+add_executable(33_search-in-rotated-sorted-array Leetcode/Array/33_search-in-rotated-sorted-array/main.cpp)
 add_executable(34_find-first-and-last-position-of-element-in-sorted-array Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp)
 add_executable(36_valid-sudoku Leetcode/Array/36_valid-sudoku/main.cpp)
 add_executable(38_count-and-say Leetcode/String/38_count-and-say/main.cpp)

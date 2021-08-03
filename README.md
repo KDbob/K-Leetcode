@@ -23,6 +23,8 @@ Leetcode practice
 ### Order of Topic
 [初级算法](https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/)
 
+[算法基础](https://leetcode-cn.com/study-plan/algorithms/?progress=x8i3axh)
+
 ### Topic list
 
 #### 数组
@@ -31,6 +33,9 @@ Leetcode practice
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题说明](Leetcode/Linked-list/141_linked-list-cycle/141_linked-list-cycle.md)、[code](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️ |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题说明](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/34_find-first-and-last-position-of-element-in-sorted-array.md)、[code](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️          |
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题说明](Leetcode/Array/33_search-in-rotated-sorted-array/33_search-in-rotated-sorted-array.md)、[code](Leetcode/Array/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️          |
+
+
 
 #### 动态规划
 
