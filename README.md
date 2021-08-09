@@ -29,11 +29,12 @@ Leetcode practice
 
 #### 数组
 
-| 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
-| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题说明](Leetcode/Linked-list/141_linked-list-cycle/141_linked-list-cycle.md)、[code](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️ |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题说明](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/34_find-first-and-last-position-of-element-in-sorted-array.md)、[code](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️          |
-| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题说明](Leetcode/Array/33_search-in-rotated-sorted-array/33_search-in-rotated-sorted-array.md)、[code](Leetcode/Array/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️          |
+| 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
+| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题说明](Leetcode/Linked-list/141_linked-list-cycle/141_linked-list-cycle.md)、[code](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️          |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题说明](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/34_find-first-and-last-position-of-element-in-sorted-array.md)、[code](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                   |
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题说明](Leetcode/Array/33_search-in-rotated-sorted-array/33_search-in-rotated-sorted-array.md)、[code](Leetcode/Array/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️                   |
+| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [解题说明](Leetcode/Array/74_search-a-2d-matrix/74_search-a-2d-matrix.md)、[code](Leetcode/Array/74_search-a-2d-matrix/main.cpp) | 两次二分查找✔️、一次二分查找 |
 
 
 
