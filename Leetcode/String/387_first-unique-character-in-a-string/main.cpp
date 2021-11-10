@@ -6,7 +6,12 @@
 #include <queue>
 
 using namespace std;
-
+/**
+ * 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1
+ * 《哈希表存储频数法》
+ * @param s 给定的字符串
+ * @return 第一个不重复的字符
+ */
 int firstUniqChar(string s) {
     unordered_map<char, int> mp;
     queue<pair<char, int>> q;
