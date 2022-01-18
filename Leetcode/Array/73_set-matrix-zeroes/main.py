@@ -1,7 +1,6 @@
 # 73. 矩阵置零
 # Created by bob on 2021/11/10.
 
-
 def setZeroes(matrix):
     """
     :type matrix: List[List[int]]

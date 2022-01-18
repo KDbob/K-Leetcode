@@ -5,16 +5,7 @@
 #ifndef K_LEETCODE_KPRINT_H
 #define K_LEETCODE_KPRINT_H
 
-
-typedef struct ListNode {
-    int val;
-    ListNode *next;
-
-    ListNode(int x) : val(x), next(NULL) {}
-
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-
-}ListNode;
+#include "KStruct.h"
 
 /**
  * 打印链表
@@ -24,15 +15,6 @@ void printLinkedList(ListNode *head) {
     while (head) {
         printf("->%d", head->val);
         head = head->next;
-    }
-}
-
-/*
- * 打印一维数组
- */
-void printArray(const vector<int>& arr) {
-    for (auto n:arr) {
-        printf("%d ", n);
     }
     printf("\n");
 }
