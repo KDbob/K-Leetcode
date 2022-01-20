@@ -3,7 +3,7 @@ project(K_Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-include_directories(Utils)
+include_directories(CppUtils)
 
 add_executable(1_two-sum Leetcode/Array/1_two-sum/main.cpp)
 add_executable(2_add-two-numbers Leetcode/Linked-list/2_add-two-numbers/main.cpp)
@@ -25,6 +25,7 @@ add_executable(53_maximum-subarray Leetcode/Dynamic/53_maximum-subarray/main.cpp
 add_executable(66_plus-one Leetcode/Array/66_plus-one/main.cpp)
 add_executable(73_set-matrix-zeroes Leetcode/Array/73_set-matrix-zeroes/main.cpp)
 add_executable(74_search-a-2d-matrix Leetcode/Array/74_search-a-2d-matrix/main.cpp)
+add_executable(94_binary-tree-inorder-traversal Leetcode/Tree/94_binary-tree-inorder-traversal/main.cpp)
 add_executable(98_validate-binary-search-tree Leetcode/Tree/98_validate-binary-search-tree/main.cpp)
 add_executable(101_symmetric-tree Leetcode/Tree/101_symmetric-tree/main.cpp)
 add_executable(102_binary-tree-level-order-traversal Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp)

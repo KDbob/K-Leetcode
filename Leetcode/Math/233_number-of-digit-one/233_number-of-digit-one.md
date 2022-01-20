@@ -134,3 +134,16 @@ def countDigitOne(self, n: int) -> int:
 - 使用`max()`和`min()`实现公示转程序的妙用🐱
 - python的整除运算符是： `//`
 - mulk在程序中不仅起到位数的计数器，也替代了k起到了在程序中作为k的变量的作用（更方便）
+
+- mulk设置为long long的原因：
+
+  > 因为int类型会溢出，int 32位(4字节)，无符号整型最大表示2^31 = 2 xxx xxx xxx
+  >
+  > long long 64位(8字节) 
+
+  ```
+  Line 7: Char 33: runtime error: signed integer overflow: 1000000000 * 10 cannot be represented in type 'int' (solution.cpp)
+  SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior prog_joined.cpp:16:33
+  ```
+
+  此外，0LL表示long long类型，在max()可以相运算

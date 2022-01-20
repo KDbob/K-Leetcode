@@ -2,22 +2,12 @@
 // Created by kaide on 2021/5/9.
 //
 #include <iostream>
+#include "KStruct.h"
 using namespace std;
 
 #define INT_MAX 2147483647
 #define INT_MIN -2147483648
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 
 /** 给定一个二叉树，判断其是否是一个有效的二叉搜索树。(算子)
  * 《递归（利用性质）》

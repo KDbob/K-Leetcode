@@ -2,20 +2,10 @@
 // Created by kaide on 2021/5/11.
 //
 #include <iostream>
+#include "KStruct.h"
 
 using namespace std;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 
 /**
  * 给定一个二叉树，检查它是否是镜像对称的（算子）

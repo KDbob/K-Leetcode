@@ -15,11 +15,11 @@ public:
      * @return 所有小于等于 n 的非负整数中数字 1 出现的个数
      */
     int countDigitOne(int n) {
-        int mulk = 1;
+        long long mulk = 1;
         int sum = 0;
         for (int k = 0; n >= mulk; ++k) {
             int n_1 = n % (mulk * 10);
-            sum += n / (mulk * 10) * mulk + min(max(n_1 - mulk + 1, 0), mulk);
+            sum += n / (mulk * 10) * mulk + min(max(n_1 - mulk + 1, 0LL), mulk);
             mulk *= 10;
         }
         return sum;

@@ -112,3 +112,16 @@
 | [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [解题说明](Leetcode/Other/119_number-of-1-bits/119_number-of-1-bits.md)、[code](Leetcode/Other/119_number-of-1-bits/main.cpp) | 循环检查✔️、位运算优化✔️ |
 | [缺失数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | [解题说明](Leetcode/Other/xxx_missing-number/xxx_missing-number.md)、[code](Leetcode/Other/xxx_missing-number/main.cpp) | 异或运算✔️              |
 
+## 树
+
+> TreeNode的数据结构在CppUtils和PyUtils的工具包中
+
+| 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
+| [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（易～中） | [C++](Leetcode/Tree/94_binary-tree-inorder-traversal/main.py)、[python](Leetcode/Tree/94_binary-tree-inorder-traversal/main.py) | 递归✅、栈          |
+| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [解题](Leetcode/Tree/98_validate-binary-search-tree/98_validate-binary-search-tree.md)、[C++](Leetcode/Tree/98_validate-binary-search-tree/main.cpp) | 利用性质递归✅      |
+| [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [解题](Leetcode/Tree/101_symmetric-tree/101_symmetric-tree.md)、[C++](Leetcode/Tree/101_symmetric-tree/main.cpp) | 利用性质递归✅      |
+| [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [解题](Leetcode/Tree/102_binary-tree-level-order-traversal/102_binary-tree-level-order-traversal.md)、[C++](Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp) | 队列实现BFS法✅     |
+| [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [解题](Leetcode/Tree/104_maximum-depth-of-binary-tree/104_maximum-depth-of-binary-tree.md)、[C++](Leetcode/Tree/104_maximum-depth-of-binary-tree/main.cpp) | 栈实现DFS深度遍历✅ |
+| [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（中～难） | [解题](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/108_convert-sorted-array-to-binary-search-tree.md)、[C++](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/main.cpp) | 递归构建✅          |
+
