@@ -6,7 +6,6 @@
 #define K_LEETCODE_KPRINT_H
 
 #include "KStruct.h"
-
 /**
  * 打印链表
  * @param head 链表的头指针
