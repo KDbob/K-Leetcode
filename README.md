@@ -69,6 +69,7 @@
 
 | 题目名称（难度）                                             | 解题说明、源码                                               | 实现的方法        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
+| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [解题说明](Leetcode/Linked-list/2_add-two-numbers/2_add-two-numbers.md)、[C++](Leetcode/Linked-list/2_add-two-numbers/main.cpp)、[Python](Leetcode/Linked-list/2_add-two-numbers/main.py) | 模拟法✅           |
 | [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [C++](Leetcode/Linked-list/237_delete-node-in-a-linked-list/main.cpp) | 与下一个节点交换✔️ |
 | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)（中） | [解题说明](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/19_remove-nth-node-from-end-of-list.md)、[C++](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/main.cpp) | 栈✔️               |
 | [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) |                                                              |                   |

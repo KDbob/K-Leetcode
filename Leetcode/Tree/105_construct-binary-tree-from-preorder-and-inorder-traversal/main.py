@@ -1,6 +1,6 @@
 from typing import List
 
-from PyUtils.KStruct import TreeNode
+from PyUtils.kstruct import TreeNode
 
 
 class Solution:
