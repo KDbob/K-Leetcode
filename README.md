@@ -69,7 +69,7 @@
 
 | 题目名称（难度）                                             | 解题说明、源码                                               | 实现的方法        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [解题说明](Leetcode/Linked-list/2_add-two-numbers/2_add-two-numbers.md)、[C++](Leetcode/Linked-list/2_add-two-numbers/main.cpp)、[Python](Leetcode/Linked-list/2_add-two-numbers/main.py) | 模拟法✅           |
+| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)（易～中） | [解题说明](Leetcode/Linked-list/2_add-two-numbers/2_add-two-numbers.md)、[C++](Leetcode/Linked-list/2_add-two-numbers/main.cpp)、[Python](Leetcode/Linked-list/2_add-two-numbers/main.py) | 模拟法✅           |
 | [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [C++](Leetcode/Linked-list/237_delete-node-in-a-linked-list/main.cpp) | 与下一个节点交换✔️ |
 | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)（中） | [解题说明](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/19_remove-nth-node-from-end-of-list.md)、[C++](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/main.cpp) | 栈✔️               |
 | [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) |                                                              |                   |
@@ -128,3 +128,8 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
 | [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)（中） | [解题](Leetcode/Graph/200_number-of-islands/main.py)、[C++](Leetcode/Graph/200_number-of-islands/main.py)、[python](Leetcode/Graph/200_number-of-islands/main.py) | DFS✅、并查集 |
 
+# 回溯
+
+| 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（中） | [解题](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/17_letter-combinations-of-a-phone-number.md)、[C++](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/main.cpp)、[python](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/main.py) | 回溯遍历✅  |

@@ -6,6 +6,9 @@
 #define K_LEETCODE_KPRINT_H
 
 #include "KStruct.h"
+#include <vector>
+
+using namespace std;
 /**
  * 打印链表
  * @param head 链表的头指针
@@ -18,4 +21,20 @@ void printLinkedList(ListNode *head) {
     printf("\n");
 }
 
+
+void printVector(vector<int> nums) {
+    for (int i = 0; i < nums.size(); ++i) {
+        printf("%d", nums[i]);
+        if (i != nums.size() - 1) printf(", ");
+    }
+    printf("\n");
+}
+
+void printVector(vector<string> strs) {
+    for (int i = 0; i < strs.size(); ++i) {
+        printf("%s", strs[i].c_str());
+        if (i != strs.size() - 1) printf(", ");
+    }
+    printf("\n");
+}
 #endif //K_LEETCODE_KPRINT_H
