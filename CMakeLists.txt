@@ -20,6 +20,7 @@ add_executable(33_search-in-rotated-sorted-array Leetcode/Array/33_search-in-rot
 add_executable(34_find-first-and-last-position-of-element-in-sorted-array Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp)
 add_executable(36_valid-sudoku Leetcode/Array/36_valid-sudoku/main.cpp)
 add_executable(38_count-and-say Leetcode/String/38_count-and-say/main.cpp)
+add_executable(46_permutations Leetcode/Backtrace/46_permutations/main.cpp)
 add_executable(48_rotate-image Leetcode/Array/48_rotate-image/main.cpp)
 add_executable(53_maximum-subarray Leetcode/Dynamic/53_maximum-subarray/main.cpp)
 add_executable(66_plus-one Leetcode/Array/66_plus-one/main.cpp)

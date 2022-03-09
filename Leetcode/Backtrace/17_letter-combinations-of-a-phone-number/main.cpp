@@ -18,6 +18,8 @@ public:
      * @return 它能表示的字母组合
      */
     vector<string> letterCombinations(string digits) {
+        vector<string> combinations;
+        if (digits.length() == 0) return combinations;
         unordered_map<char, string> phoneMap{
                 {'2', "abc"},
                 {'3', "def"},
@@ -28,7 +30,6 @@ public:
                 {'8', "tuv"},
                 {'9', "wxyz"}
         };
-        vector<string> combinations;
         string combination;
         backtrack(phoneMap, digits, 0, combination, combinations);
         return combinations;

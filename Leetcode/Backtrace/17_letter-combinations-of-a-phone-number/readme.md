@@ -6,7 +6,7 @@
 
 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
-![img](17_letter-combinations-of-a-phone-number.assets/200px-telephone-keypad2svg.png)
+![img](readme.assets/200px-telephone-keypad2svg.png)
 
  
 
@@ -62,7 +62,7 @@
 
    > 递归没有出口，会完整地遍历完解空间的n叉树
 
-   - 一轮递归的结束条件：index = digits.length时
+   - 一个完整深度遍历的结束条件：index = digits.length时
      - 将临时字符串数组中的值加入到combinations
 
    - 遍历这个深度的数量，执行递归（index+1）

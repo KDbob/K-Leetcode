@@ -3,6 +3,8 @@ from typing import List
 
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
+        if not digits:
+            return list()
         phone_map = {
             "2": "abc",
             "3": "def",
@@ -13,8 +15,8 @@ class Solution:
             "8": "tuv",
             "9": "wxyz",
         }
-        combinations = list()
         combination = list()
+        combinations = list()
 
         def backtrack(index: int):
             if index == len(digits):
@@ -33,5 +35,5 @@ class Solution:
 if __name__ == '__main__':
     digits = "23"
     s = Solution()
-    result = s.letterCombinations(digits)
-    print(result)
+    res = s.letterCombinations(digits)
+    print(res)
