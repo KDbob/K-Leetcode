@@ -12,7 +12,12 @@
 
 **示例 1：**
 
-![img](2_add-two-numbers.assets/addtwonumber1.jpg)
+![img](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2021/01/02/addtwonumber1.jpg)
+
+```
+输入：l1 = [2,4,3], l2 = [5,6,4]
+输出：[7,0,8]
+```
 
 ```
 输入：l1 = [2,4,3], l2 = [5,6,4]
