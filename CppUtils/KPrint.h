@@ -7,6 +7,7 @@
 
 #include "KStruct.h"
 #include <vector>
+#include <string>
 
 using namespace std;
 /**
@@ -32,7 +33,8 @@ void printVector(vector<int> nums) {
 
 void printVector(vector<string> strs) {
     for (int i = 0; i < strs.size(); ++i) {
-        printf("%s", strs[i].c_str());
+        string str = strs[i];
+        printf("%s", str.c_str());
         if (i != strs.size() - 1) printf(", ");
     }
     printf("\n");

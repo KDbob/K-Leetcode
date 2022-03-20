@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.21)
 project(K_Leetcode)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -27,6 +27,8 @@ add_executable(53_maximum-subarray Leetcode/Dynamic/53_maximum-subarray/main.cpp
 add_executable(66_plus-one Leetcode/Array/66_plus-one/main.cpp)
 add_executable(73_set-matrix-zeroes Leetcode/Array/73_set-matrix-zeroes/main.cpp)
 add_executable(74_search-a-2d-matrix Leetcode/Array/74_search-a-2d-matrix/main.cpp)
+add_executable(75_sort-colors Leetcode/Sort&Search/75_sort-colors/main.cpp)
+add_executable(79_word-search Leetcode/Backtrace/79_word-search/main.cpp)
 add_executable(94_binary-tree-inorder-traversal Leetcode/Tree/94_binary-tree-inorder-traversal/main.cpp)
 add_executable(98_validate-binary-search-tree Leetcode/Tree/98_validate-binary-search-tree/main.cpp)
 add_executable(101_symmetric-tree Leetcode/Tree/101_symmetric-tree/main.cpp)
