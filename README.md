@@ -48,7 +48,7 @@
 | [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)（中） | [解题](Leetcode/Array/36_valid-sudoku/readme.md)、[C++](Leetcode/Array/36_valid-sudoku/main.cpp) | 一次遍历✔️                   |
 | [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)（中） | [解题](Leetcode/Array/48_rotate-image/readme.md)、[C++](Leetcode/Array/48_rotate-image/main.cpp) | 映射法✔️                     |
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题](Leetcode/Linked-list/141_linked-list-cycle/readme.md)、[C++](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️          |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/readme.md)、[C++](Leetcode/Array/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                   |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/readme.md)、[C++](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                   |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题](Leetcode/Array/33_search-in-rotated-sorted-array/readme.md)、[C++](Leetcode/Array/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️                   |
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [解题](Leetcode/Array/74_search-a-2d-matrix/readme.md)、[C++](Leetcode/Array/74_search-a-2d-matrix/main.cpp) | 两次二分查找✔️、一次二分查找 |
 
@@ -134,8 +134,11 @@
 | 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)（易～中） | [解题](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/readme.md)、[C++](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/main.cpp)、[python](Leetcode/Backtrace/17_letter-combinations-of-a-phone-number/main.py) | 回溯遍历✅  |
+| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)（易～中） | [解题](Leetcode/Backtrace/22_generate-parentheses)、[C++](Leetcode/Backtrace/22_generate-parentheses/main.cpp)、[python](Leetcode/Backtrace/22_generate-parentheses/main.py) | 回溯剪枝✅  |
 | [46. 全排列](https://leetcode-cn.com/problems/permutations/)（易～中） | [解题](Leetcode/Backtrace/46_permutations/readme.md)、[C++](Leetcode/Backtrace/46_permutations/main.cpp)、[python](Leetcode/Backtrace/46_permutations/main.py) | 回溯剪枝✅  |
 | [79. 单词搜索](https://leetcode-cn.com/problems/word-search/)（中～难） | [解题](Leetcode/Backtrace/79_word-search/reademe.md)、[C++](Leetcode/Backtrace/79_word-search/main.cpp)、[python](Leetcode/Backtrace/79_word-search/main.py) | 回溯剪枝✅  |
+
+
 
 # 排列&搜索
 

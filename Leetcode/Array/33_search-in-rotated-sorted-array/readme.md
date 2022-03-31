@@ -41,15 +41,28 @@
 
 - 旋转数组的特点：将旋转数组一分为二的话：必存在有一部分是有序的数组
 
+  >  如何判断是否有序？nums[0]<nums[mid]的时候即为有序
+  >
+  > **有序的数组有什么用？**可以100%判断该数在不在这个区间内
+
+  
+
 因此可以设计以下的二分查找方法：
 
-### 在常规的二分查找时候，在mid分割的两部分[l, mid]和[mid + 1, r]，判断哪部分是有序的：
+**在常规的二分查找时候，在mid分割的两部分[l, mid]和[mid + 1, r]，判断哪部分是有序的：**
 
 - 否则恰好查找值为nums[mid]
 
-- 如果[l, mid -1]是有序数组，且target的大小满足[nums[l], nums[mid])，应该将搜索范围缩小至[l, mid -1]，否则在[mid + 1, r]中查找。
+- 如果[l, mid -1]是有序数组，
 
-- 如果[mid, r]是有序数组，且target的大小满足(nums[mid +1], nums[r]], 应该将搜索范围缩小至[mid + 1, r], 否则在[l, mid -1]中寻找。
+  - 且target的大小满足[nums[l], nums[mid])，应该将搜索范围缩小至[l, mid -1]
+
+    否则在[mid + 1, r]中查找。
+
+- 如果[mid, r]是有序数组
+
+  - 且target的大小满足(nums[mid +1], nums[r]], 应该将搜索范围缩小至[mid + 1, r]
+  - 否则在[l, mid -1]中寻找。
 
   > 以上两个“如果”是互斥关系，即执行了第一个就不会执行下一个
 
@@ -64,13 +77,13 @@ int search(vector<int> &nums, int target) {
     while (l <= r) {
         int mid = (l + r) / 2;
         if (nums[mid] == target) return mid;
-        if (nums[l] <= nums[mid]) {
-            if (nums[l] <= target && target < nums[mid]) {
+        if (nums[l] <= nums[mid]) {		// 这部分是有序的
+            if (nums[l] <= target && target < nums[mid]) {	// 不包含mid，因此闭区间
                 r = mid - 1;
             } else {
                 l = mid + 1;
             }
-        } else if (nums[mid] <= nums[l]) {
+        } else if (nums[mid] <= nums[l]) {	// 这部分是有序的
             if (nums[mid] < target && target <= nums[r]) {
                 l = mid + 1;
             } else {
@@ -91,7 +104,7 @@ int search(vector<int> &nums, int target) {
   > ```c++
   > // 二分查找一次只缩小一半
   > if (nums[l] <= nums[mid]) {	// 加等号是因为可能只剩1个数
-  >     if (nums[l] <= target && target < nums[mid]) {
+  >     if (nums[l] <= target && target < nums[mid]) {	//不包含mid，因此闭区间
   >         r = mid - 1;
   >     } else {
   >         l = mid + 1;
