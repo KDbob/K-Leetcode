@@ -78,11 +78,12 @@
 
 ## 动态规划
 
-| 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
-| [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [解题说明](Leetcode/Dynamic/53_maximum-subarray/53_maximum-subarray.md)、[code](Leetcode/Dynamic/53_maximum-subarray/main.cpp) | 动态规划✔️、分而治之 |
-| [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [解题说明](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii/122_best-time-to-buy-and-sell-stock-ii.md)、[code](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii/main.cpp) | 动态规划✔️           |
-| [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [解题说明](Leetcode/Dynamic/198_house-robber/198_house-robber.md)、[code](Leetcode/Dynamic/198_house-robber/main.cpp) | 动态规划✔️           |
+| 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- |
+| [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [解题](Leetcode/Dynamic/53_maximum-subarray)、[C++](Leetcode/Dynamic/53_maximum-subarray/main.cpp)、[Python](Leetcode/Dynamic/53_maximum-subarray/main.py) | 动态规划✔️、分而治之   |
+| [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)  | [解题](Leetcode/Dynamic/55_jump-game)、[C++](Leetcode/Dynamic/55_jump-game/main.cpp)、[Python](Leetcode/Dynamic/55_jump-game/main.py) | 动态规划（两种思路）✔️ |
+| [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [解题](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii)、[C++](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii/main.cpp)、python | 动态规划✔️             |
+| [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [解题](Leetcode/Dynamic/198_house-robber/readme.md)、[C++](Leetcode/Dynamic/198_house-robber/main.cpp)、python | 动态规划✔️             |
 
 ## 设计问题
 
@@ -117,11 +118,11 @@
 | 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
 | [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)（易～中） | [C++](Leetcode/Tree/94_binary-tree-inorder-traversal/main.py)、[python](Leetcode/Tree/94_binary-tree-inorder-traversal/main.py) | 递归✅、栈          |
-| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [解题](Leetcode/Tree/98_validate-binary-search-tree/98_validate-binary-search-tree.md)、[C++](Leetcode/Tree/98_validate-binary-search-tree/main.cpp) | 利用性质递归✅      |
-| [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [解题](Leetcode/Tree/101_symmetric-tree/101_symmetric-tree.md)、[C++](Leetcode/Tree/101_symmetric-tree/main.cpp) | 利用性质递归✅      |
-| [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [解题](Leetcode/Tree/102_binary-tree-level-order-traversal/102_binary-tree-level-order-traversal.md)、[C++](Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp) | 队列实现BFS法✅     |
-| [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [解题](Leetcode/Tree/104_maximum-depth-of-binary-tree/104_maximum-depth-of-binary-tree.md)、[C++](Leetcode/Tree/104_maximum-depth-of-binary-tree/main.cpp) | 栈实现DFS深度遍历✅ |
-| [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（中～难） | [解题](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/108_convert-sorted-array-to-binary-search-tree.md)、[C++](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/main.cpp) | 递归构建✅          |
+| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [解题](Leetcode/Tree/98_validate-binary-search-tree/readme.md)、[C++](Leetcode/Tree/98_validate-binary-search-tree/main.cpp) | 利用性质递归✅      |
+| [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [解题](Leetcode/Tree/101_symmetric-tree/readme.md)、[C++](Leetcode/Tree/101_symmetric-tree/main.cpp) | 利用性质递归✅      |
+| [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [解题](Leetcode/Tree/102_binary-tree-level-order-traversal/readme.md)、[C++](Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp) | 队列实现BFS法✅     |
+| [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [解题](Leetcode/Tree/104_maximum-depth-of-binary-tree/readme.md)、[C++](Leetcode/Tree/104_maximum-depth-of-binary-tree/main.cpp) | 栈实现DFS深度遍历✅ |
+| [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（中～难） | [解题](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/readme.md)、[C++](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/main.cpp) | 递归构建✅          |
 
 # 图
 
@@ -146,4 +147,3 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
 | [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)（易） | [解题](Leetcode/Sort&Search/75_sort-colors)、[C++](Leetcode/Sort&Search/75_sort-colors/main.cpp)、[python](Leetcode/Sort&Search/75_sort-colors/main.py) | 双指针✅             |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（中～难） | [解题](Leetcode/Sort&Search/215_kth-largest-element-in-an-array)、[C++](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.cpp)、[python](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.py) | 基于快速排序的思想✅ |
-

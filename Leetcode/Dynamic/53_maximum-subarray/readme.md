@@ -1,5 +1,7 @@
 #### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
+> 滚动数组
+
 给定一个整数数组 `nums` ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。 
 
 **示例 1：**
@@ -51,7 +53,7 @@
 > 如何求f(i)，**考虑nums[i]单独成为一段，还是加入f(i-1)对应的那一段**。取决于这两者更大的那个
 
 $$
-f(i) = max\{f(i-1)+nums[i],f(i-1)\}
+f(i) = max\{f(i-1)+nums[i],nums[i]\}
 $$
 
 
@@ -66,26 +68,9 @@ $$
 
 `int f_max = nums[0]`：最大的f(i)值
 
-`int f_pre = nums[0]`：f(i-1)的值
+`int f_pre = nums[0]`：维护对于当前 f(i)的 f(i−1)的值是多少
 
 #### 代码实现
-
-初步代码实现：
-
-```c++
-int maxSubArray(vector<int> &nums) {
-    int f_max = nums[0];
-    int f_pre = nums[0];
-    for (int i = 1; i < nums.size(); i++) {
-        int f = max(nums[i], f_pre + nums[i]);
-        f_max = max(f, f_max);
-        f_pre = f;
-    }
-    return f_max;
-}
-```
-
-省去中间的变量f后的版本
 
 ```C++
 int maxSubArray(vector<int> &nums) {

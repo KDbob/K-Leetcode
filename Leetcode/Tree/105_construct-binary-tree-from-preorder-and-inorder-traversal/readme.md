@@ -8,7 +8,7 @@
 
 **示例 1:**
 
-![img](105_construct-binary-tree-from-preorder-and-inorder-traversal.assets/tree.jpg)
+![img](readme.assets/tree.jpg)
 
 ```
 Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
@@ -46,7 +46,7 @@ Output: [-1]
 
 ### 1. 思路
 
-![image-20220207084252916](105_construct-binary-tree-from-preorder-and-inorder-traversal.assets/image-20220207084252916.png)
+![image-20220207084252916](readme.assets/image-20220207084252916.png)
 
 ### 2 编程
 

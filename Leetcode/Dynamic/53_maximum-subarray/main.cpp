@@ -22,8 +22,8 @@ int maxSubArray(vector<int> &nums) {
 }
 
 int main() {
-//    vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-//    printf("max sum of subarray is %d\n", maxSubArray(nums));
+    vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    printf("max sum of subarray is %d\n", maxSubArray(nums));
 
     vector<int> nums1 = {5, 4, -1, 7, 8};
     printf("max sum of subarray is %d\n", maxSubArray(nums1));
