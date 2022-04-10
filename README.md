@@ -81,7 +81,7 @@
 | 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- |
 | [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [解题](Leetcode/Dynamic/53_maximum-subarray)、[C++](Leetcode/Dynamic/53_maximum-subarray/main.cpp)、[Python](Leetcode/Dynamic/53_maximum-subarray/main.py) | 动态规划✔️、分而治之   |
-| [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)  | [解题](Leetcode/Dynamic/55_jump-game)、[C++](Leetcode/Dynamic/55_jump-game/main.cpp)、[Python](Leetcode/Dynamic/55_jump-game/main.py) | 动态规划（两种思路）✔️ |
+| [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)（中） | [解题](Leetcode/Dynamic/55_jump-game)、[C++](Leetcode/Dynamic/55_jump-game/main.cpp)、[Python](Leetcode/Dynamic/55_jump-game/main.py) | 动态规划（两种思路）✔️ |
 | [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [解题](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii)、[C++](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii/main.cpp)、python | 动态规划✔️             |
 | [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [解题](Leetcode/Dynamic/198_house-robber/readme.md)、[C++](Leetcode/Dynamic/198_house-robber/main.cpp)、python | 动态规划✔️             |
 
@@ -145,5 +145,6 @@
 
 | 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
+| [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)（易） | [解题](Leetcode/Sort&Search/56_merge-intervals)、[C++](Leetcode/Sort&Search/56_merge-intervals/main.cpp)、[python](Leetcode/Sort&Search/56_merge-intervals/main.py) | 排序后合并✅         |
 | [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)（易） | [解题](Leetcode/Sort&Search/75_sort-colors)、[C++](Leetcode/Sort&Search/75_sort-colors/main.cpp)、[python](Leetcode/Sort&Search/75_sort-colors/main.py) | 双指针✅             |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（中～难） | [解题](Leetcode/Sort&Search/215_kth-largest-element-in-an-array)、[C++](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.cpp)、[python](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.py) | 基于快速排序的思想✅ |

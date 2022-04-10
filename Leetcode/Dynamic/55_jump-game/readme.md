@@ -101,6 +101,8 @@ bool canJump2(vector<int> &nums) {
 }
 ```
 
+
+
 # 总结
 
 - python中的遍历（倒序）写法
