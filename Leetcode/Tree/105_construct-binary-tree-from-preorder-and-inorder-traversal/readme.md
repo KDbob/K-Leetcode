@@ -82,7 +82,7 @@ Output: [-1]
 
 `int preorder_index = 0；`：顶点在[前序]中的位置
 
-` int inorder_leftIndex, inorder_rightIndex `：用于记录[中序]子序列的起始和结束位置
+` int inorder_leftIndex, inorder_rightIndex `：用于记录[中序]子序列的起始和结束位置（用于计算长度）
 
 `unordered_map<int,int> map`：[前序]值在中序中的位置
 

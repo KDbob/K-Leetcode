@@ -30,27 +30,28 @@
 
 
 
-## 分类 Category 
+# 分类 Category 
 
-### 数组
+## 数组
 
 | 题目名称（难度）                                             | 解题、源码                                                   | 实现方法                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------- |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)（易） | [C++](Leetcode/Array&String/1_two-sum/main.cpp)              | 暴力破解✔️、哈希表           |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)（中） | [解题](Leetcode/Array&String/15_3sum/readme.md)、[C++](Leetcode/Array&String/15_3sum/main.cpp)、[python](Leetcode/Array&String/15_3sum/main.py) | 排序+双指针✔️                |
 | [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)（易） | [解题](Leetcode/Array&String/26_remove-duplicates-from-sorted-array/readme.md)、[C++](Leetcode/Array&String/26_remove-duplicates-from-sorted-array/readme.md) | 双指针✔️                     |
-| ★[121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)（易～中） | [解题](Leetcode/Array&String/121_best-time-to-buy-and-sell-stock/readme.md)、[C++](Leetcode/Array&String/121_best-time-to-buy-and-sell-stock/main.cpp) | 一次遍历✔️、暴力法           |
-| [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)（中） | [解题](Leetcode/Array&String/48_rotate-image/readme.md)、[C++](Leetcode/Array&String/48_rotate-image/main.cpp) | 使用额外的数组✔️、环状替换   |
-| [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)（易） | [解题](Leetcode/Array&String/136_single-number/readme.md)、[C++](Leetcode/Array&String/136_single-number/main.cpp) | 位运算✔️                     |
-| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)（易） | [解题](Leetcode/Array&String/136_single-number/main.cpp)、[C++](Leetcode/Array&String/350_intersection-of-two-arrays-ii/main.cpp) | hash表✔️                     |
-| [66. 加一](https://leetcode-cn.com/problems/plus-one/)（易） | [解题](Leetcode/Array&String/66_plus-one/readme.md)、[C++](Leetcode/Array&String/66_plus-one/main.cpp) | 数组遍历✔️                   |
-| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)（易） | [解题](Leetcode/Array&String/283_move-zeroes/readme.md)、[C++](Leetcode/Array&String/283_move-zeroes/main.cpp) | 双指针法（i、ii）✔️          |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)（易） | [C++](Leetcode/Array&String/1_two-sum/main.cpp)                     | 暴力破解✔️、哈希表           |
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题](Leetcode/Array&String/33_search-in-rotated-sorted-array/readme.md)、[C++](Leetcode/Array&String/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️                   |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/readme.md)、[C++](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                   |
 | [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)（中） | [解题](Leetcode/Array&String/36_valid-sudoku/readme.md)、[C++](Leetcode/Array&String/36_valid-sudoku/main.cpp) | 一次遍历✔️                   |
 | [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)（中） | [解题](Leetcode/Array&String/48_rotate-image/readme.md)、[C++](Leetcode/Array&String/48_rotate-image/main.cpp) | 映射法✔️                     |
-| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题](Leetcode/Linked-list/141_linked-list-cycle/readme.md)、[C++](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️          |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/readme.md)、[C++](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                   |
-| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题](Leetcode/Array&String/33_search-in-rotated-sorted-array/readme.md)、[C++](Leetcode/Array&String/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️                   |
+| [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)（中） | [解题](Leetcode/Array&String/46_group-anagrams)、[C++](Leetcode/Array&String/46_group-anagrams/main.cpp)、[python](Leetcode/Array&String/46_group-anagrams/main.py) | 哈希表✅                     |
+| [66. 加一](https://leetcode-cn.com/problems/plus-one/)（易） | [解题](Leetcode/Array&String/66_plus-one/readme.md)、[C++](Leetcode/Array&String/66_plus-one/main.cpp) | 数组遍历✔️                   |
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [解题](Leetcode/Array&String/74_search-a-2d-matrix/readme.md)、[C++](Leetcode/Array&String/74_search-a-2d-matrix/main.cpp) | 两次二分查找✔️、一次二分查找 |
+| [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)（易～中） | [解题](Leetcode/Array&String/121_best-time-to-buy-and-sell-stock/readme.md)、[C++](Leetcode/Array&String/121_best-time-to-buy-and-sell-stock/main.cpp) | 一次遍历✔️、暴力法           |
+| [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)（易） | [解题](Leetcode/Array&String/136_single-number/readme.md)、[C++](Leetcode/Array&String/136_single-number/main.cpp) | 位运算✔️                     |
+| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [解题](Leetcode/Linked-list/141_linked-list-cycle/readme.md)、[C++](Leetcode/Linked-list/141_linked-list-cycle/main.cpp) | hash表✔️、快慢指针✔️          |
+| [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)（中） | [解题](Leetcode/Array&String/48_rotate-image/readme.md)、[C++](Leetcode/Array&String/48_rotate-image/main.cpp) | 使用额外的数组✔️、环状替换   |
+| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)（易） | [解题](Leetcode/Array&String/283_move-zeroes/readme.md)、[C++](Leetcode/Array&String/283_move-zeroes/main.cpp) | 双指针法（i、ii）✔️          |
+| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)（易） | [解题](Leetcode/Array&String/136_single-number/main.cpp)、[C++](Leetcode/Array&String/350_intersection-of-two-arrays-ii/main.cpp) | hash表✔️                     |
 
 ## 字符串
 
@@ -61,7 +62,7 @@
 | [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)（易） | [解题说明](Leetcode/String/387_first-unique-character-in-a-string/387_first-unique-character-in-a-string.md)、[C++](Leetcode/String/387_first-unique-character-in-a-string/main.cpp) | hash表✔️         |
 | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)（易） | [解题说明](Leetcode/String/242_valid-anagram/242_valid-anagram.md)、[C++](Leetcode/String/242_valid-anagram/main.cpp) | hash表✔️、排序   |
 | [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)（易） | [解题说明](Leetcode/String/125_valid-palindrome/125_valid-palindrome.md)、[C++](Leetcode/String/125_valid-palindrome/main.cpp) | 双指针✔️         |
-| ★[8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)（中～难） | [解题说明](Leetcode/String/8_string-to-integer-atoi/8_string-to-integer-atoi.md)、[C++](Leetcode/String/8_string-to-integer-atoi/main.cpp) | 逻辑式✔️、自动机 |
+| [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)（中～难） | [解题说明](Leetcode/String/8_string-to-integer-atoi/8_string-to-integer-atoi.md)、[C++](Leetcode/String/8_string-to-integer-atoi/main.cpp) | 逻辑式✔️、自动机 |
 | [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)（易） | [解题说明](Leetcode/String/28_implement-strstr/28_implement-strstr.md)、[C++](Leetcode/String/28_implement-strstr/main.cpp) | 简单匹配✔️       |
 | [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)（中） | [解题说明](Leetcode/String/38_count-and-say/38_count-and-say.md)、[C++](Leetcode/String/38_count-and-say/main.cpp) | 分治法✔️         |
 | [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)（易） | [解题说明](Leetcode/String/14_longest_common_prefix/14_longest-common-prefix.md)、[C++](Leetcode/String/14_longest_common_prefix/main.cpp) | 纵向扫描✔️       |
@@ -73,13 +74,14 @@
 | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)（易～中） | [解题](Leetcode/Linked-list/2_add-two-numbers/readme.md)、[C++](Leetcode/Linked-list/2_add-two-numbers/main.cpp)、[Python](Leetcode/Linked-list/2_add-two-numbers/main.py) | 模拟法✅           |
 | [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [C++](Leetcode/Linked-list/237_delete-node-in-a-linked-list/main.cpp) | 与下一个节点交换✔️ |
 | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)（中） | [解题](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/readme.md)、[C++](Leetcode/Linked-list/19_remove-nth-node-from-end-of-list/main.cpp) | 栈✔️               |
-| [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) |                                                              |                   |
 | [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)（中） | [解题](Leetcode/Linked-list/160_intersection-of-two-linked-lists/readme.md)、[C++](Leetcode/Linked-list/160_intersection-of-two-linked-lists/main.cpp)、[Python](Leetcode/Linked-list/160_intersection-of-two-linked-lists/main.py) | 哈希集合、双指针✔️ |
+| [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)（中） | [解题](Leetcode/Linked-list/328_odd-even-linked-list)、[C++](Leetcode/Linked-list/328_odd-even-linked-list/main.cpp)、[python](Leetcode/Linked-list/328_odd-even-linked-list/main.py) | 双指针✅           |
 
 ## 动态规划
 
 | 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- |
+| [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)（中） | [解题](Leetcode/Dynamic/5_longest-palindromic-substring)、[C++](Leetcode/Dynamic/5_longest-palindromic-substring/readme.md) | 动态规划✅             |
 | [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [解题](Leetcode/Dynamic/53_maximum-subarray)、[C++](Leetcode/Dynamic/53_maximum-subarray/main.cpp)、[Python](Leetcode/Dynamic/53_maximum-subarray/main.py) | 动态规划✔️、分而治之   |
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)（中） | [解题](Leetcode/Dynamic/55_jump-game)、[C++](Leetcode/Dynamic/55_jump-game/main.cpp)、[Python](Leetcode/Dynamic/55_jump-game/main.py) | 动态规划（两种思路）✔️ |
 | [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [解题](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii)、[C++](Leetcode/Dynamic/122_best-time-to-buy-and-sell-stock-ii/main.cpp)、python | 动态规划✔️             |
@@ -121,8 +123,10 @@
 | [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [解题](Leetcode/Tree/98_validate-binary-search-tree/readme.md)、[C++](Leetcode/Tree/98_validate-binary-search-tree/main.cpp) | 利用性质递归✅      |
 | [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [解题](Leetcode/Tree/101_symmetric-tree/readme.md)、[C++](Leetcode/Tree/101_symmetric-tree/main.cpp) | 利用性质递归✅      |
 | [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [解题](Leetcode/Tree/102_binary-tree-level-order-traversal/readme.md)、[C++](Leetcode/Tree/102_binary-tree-level-order-traversal/main.cpp) | 队列实现BFS法✅     |
+| [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)（类似102） | [解题](Leetcode/Tree/103_binary-tree-zigzag-level-order-traversal/readme.md)、[C++](Leetcode/Tree/103_binary-tree-zigzag-level-order-traversal/main.cpp) | 层序遍历✅          |
 | [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [解题](Leetcode/Tree/104_maximum-depth-of-binary-tree/readme.md)、[C++](Leetcode/Tree/104_maximum-depth-of-binary-tree/main.cpp) | 栈实现DFS深度遍历✅ |
 | [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)（中～难） | [解题](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/readme.md)、[C++](Leetcode/Tree/108_convert-sorted-array-to-binary-search-tree/main.cpp) | 递归构建✅          |
+| [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)（类似102） | [解题](Leetcode/Tree/116_populating-next-right-pointers-in-each-node/readme.md)、[C++](Leetcode/Tree/116_populating-next-right-pointers-in-each-node/main.cpp)、[python](Leetcode/Tree/116_populating-next-right-pointers-in-each-node/main.py) | 层序遍历✅          |
 
 # 图
 
@@ -148,3 +152,11 @@
 | [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)（易） | [解题](Leetcode/Sort&Search/56_merge-intervals)、[C++](Leetcode/Sort&Search/56_merge-intervals/main.cpp)、[python](Leetcode/Sort&Search/56_merge-intervals/main.py) | 排序后合并✅         |
 | [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)（易） | [解题](Leetcode/Sort&Search/75_sort-colors)、[C++](Leetcode/Sort&Search/75_sort-colors/main.cpp)、[python](Leetcode/Sort&Search/75_sort-colors/main.py) | 双指针✅             |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（中～难） | [解题](Leetcode/Sort&Search/215_kth-largest-element-in-an-array)、[C++](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.cpp)、[python](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.py) | 基于快速排序的思想✅ |
+
+
+
+# 贪心
+
+| 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| [334. 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)（中） | [解题](Leetcode/Array&String/334_increasing-triplet-subsequence/readme.md)、[C++](Leetcode/Array&String/334_increasing-triplet-subsequence/main.cpp)、[python](Leetcode/Array&String/334_increasing-triplet-subsequence/main.py) | 辅助数组✅  |
