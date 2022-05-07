@@ -4,7 +4,9 @@
 #include<vector>
 
 using namespace std;
-
+/**
+ * 方法一：基于快速排序
+ */
 class Solution {
 public:
     int findKthLargest(vector<int> &nums, int k) {
@@ -50,8 +52,52 @@ int quickSelect(vector<int> &a, int l, int r, int index) {
     }
 };
 
+/**
+ * 方法二：基于堆排序
+ */
+class Solution2 {
+public:
+void maxHeapify(vector<int>& a, int i, int heapSize) {
+    int l = i * 2 + 1;
+    int r = i * 2 + 2;
+    int largest = i;
+    if (l < heapSize && a[l] > a[largest]) {
+        largest = l;
+    }
+    if (r < heapSize && a[r] > a[largest]) {
+        largest = r;
+    }
+    if (largest != i) {
+        swap(a[i], a[largest]);
+        maxHeapify(a, largest, heapSize);
+    }
+}
+
+void buildMaxHeap(vector<int> &a, int heapSize) {
+    for (int i = heapSize / 2; i >= 0; --i) {
+        maxHeapify(a, i, heapSize);
+    }
+}
+
+int findKthLargest(vector<int>& nums, int k) {
+    int heapSize = nums.size();
+    buildMaxHeap(nums, heapSize);
+    for (int i = 0; i < k-1; ++i) {
+        swap(nums[0], nums[heapSize-1]);
+        maxHeapify(nums, 0, heapSize - 1);
+        heapSize--; 
+    }
+    return nums[0];
+}
+};
+
+
 int main() {
-    vector<int> nums = {3, 2, 1, 5, 6, 4};
-    int result = Solution().findKthLargest(nums, 2);
-    printf("%d", result);   // expect: 5
+//    vector<int> nums = {3, 2, 1, 5, 6, 4};
+//    int result = Solution().findKthLargest(nums, 2);
+//    printf("%d", result);   // expect: 5
+    vector<int> nums2 = {1, 2, 3, 4, 7, 8, 9, 10, 14, 16};
+    int res = Solution2().findKthLargest(nums2, 5);
+    printf("%d", res);  // expect：8
+    return 0;
 }

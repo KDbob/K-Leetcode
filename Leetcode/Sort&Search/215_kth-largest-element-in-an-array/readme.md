@@ -128,6 +128,43 @@ int partition(vector<int> &a, int p, int r) {
 - 空间复杂度：O(logn)
   - 使用栈空间的空间代价
 
+## 方法二：堆排序
+
+### 1. 思路
+
+- 利用大根堆移除顶点并调整堆k-1次
+
+- 堆顶元素即第K个最大元素
+
+### 2 算法流程
+
+1. 建立大根堆
+
+2. 执行k-1次移除顶点，并重新建堆
+
+   > 交换最后一个叶子结点和顶点
+   >
+   > 重建堆（根据不断缩小的heapsize）
+
+3. 返回大根堆的堆顶元素
+
+### 3 代码实现(主逻辑)
+
+```c
+int findKthLargest(vector<int>& nums, int k) {
+    int heapSize = nums.size();
+    buildMaxHeap(nums, heapSize);
+    for (int i = 0; i < k-1; ++i) {
+        swap(nums[0], nums[heapSize-1]);
+        maxHeapify(nums, 0, heapSize - 1);
+        heapSize--; 
+    }
+    return nums[0];
+}
+```
+
+
+
 # 总结
 
 - C++中rand()返回，从0到最大随机数的任意整数

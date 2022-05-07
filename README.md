@@ -147,11 +147,12 @@
 
 # 排列&搜索
 
-| 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- |
-| [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)（易） | [解题](Leetcode/Sort&Search/56_merge-intervals)、[C++](Leetcode/Sort&Search/56_merge-intervals/main.cpp)、[python](Leetcode/Sort&Search/56_merge-intervals/main.py) | 排序后合并✅         |
-| [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)（易） | [解题](Leetcode/Sort&Search/75_sort-colors)、[C++](Leetcode/Sort&Search/75_sort-colors/main.cpp)、[python](Leetcode/Sort&Search/75_sort-colors/main.py) | 双指针✅             |
-| [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（中～难） | [解题](Leetcode/Sort&Search/215_kth-largest-element-in-an-array)、[C++](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.cpp)、[python](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.py) | 基于快速排序的思想✅ |
+| 题目（难度）                                                 | 文件位置（解题、源码）                                       | 实现的方法                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
+| [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)（易） | [解题](Leetcode/Sort&Search/56_merge-intervals)、[C++](Leetcode/Sort&Search/56_merge-intervals/main.cpp)、[python](Leetcode/Sort&Search/56_merge-intervals/main.py) | 排序后合并✅                  |
+| [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)（易） | [解题](Leetcode/Sort&Search/75_sort-colors)、[C++](Leetcode/Sort&Search/75_sort-colors/main.cpp)、[python](Leetcode/Sort&Search/75_sort-colors/main.py) | 双指针✅                      |
+| [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)（中） | [解题](Leetcode/Sort&Search/215_kth-largest-element-in-an-array)、[C++](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.cpp)、[python](Leetcode/Sort&Search/215_kth-largest-element-in-an-array/main.py) | 基于快速排序的思想✅、堆排序✅ |
+| [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)（中） | [解题](Leetcode/Sort&Search/347_top-k-frequent-elements)、[C++](Leetcode/Sort&Search/347_top-k-frequent-elements/main.cpp)、[python](Leetcode/Sort&Search/347_top-k-frequent-elements/main.py) | 堆排序✅                      |
 
 
 

@@ -76,6 +76,7 @@ add_executable(328_odd-even-linked-list Leetcode/Linked-list/328_odd-even-linked
 add_executable(334_increasing-triplet-subsequence Leetcode/Array&String/334_increasing-triplet-subsequence/main.cpp)
 add_executable(341_flatten-nested-list-iterator Leetcode/Array&String/341_flatten-nested-list-iterator/main.cpp)
 add_executable(344_reverse-string Leetcode/String/344_reverse-string/main.cpp)
+add_executable(347_top-k-frequent-elements Leetcode/Sort&Search/347_top-k-frequent-elements/main.cpp)
 add_executable(350_intersection-of-two-arrays-ii Leetcode/Array&String/350_intersection-of-two-arrays-ii/main.cpp)
 add_executable(384_shuffle-an-array Leetcode/Design/384_shuffle-an-array/main.cpp)
 add_executable(387_first-unique-character-in-a-string Leetcode/String/387_first-unique-character-in-a-string/main.cpp)
