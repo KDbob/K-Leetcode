@@ -20,9 +20,9 @@ public:
             result.push_back(cur);
         } else {
             cur.push_back(nums[t]);
-            dfs(nums, t + 1, result, cur);
+            dfs(nums, t + 1, result, cur);  // 可以选择加入
             cur.pop_back();
-//            dfs(nums, t + 1, result, cur);
+            dfs(nums, t + 1, result, cur);  // 也可以选择不加入
         }
     }
 
