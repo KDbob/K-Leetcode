@@ -10,7 +10,7 @@ class Solution:
             if idx == len(candidates):
                 return
             if tar == 0:
-                results.append(current[:])   # 注：results.append(current) 写法是错误的，相当于深拷贝。但是需求是只需要数组里的值，而不是引用
+                results.append(current[:])   # 注：results.append(current) 写法是错误的，相当于浅。但是需求是只需要数组里的值，而不是引用
                 return
             dfs(idx + 1, tar)  # 直接跳过
             if tar - candidates[idx] >= 0:

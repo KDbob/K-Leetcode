@@ -36,8 +36,8 @@
 
 | 题目名称（难度）                                             | 解题、源码                                                   | 实现方法                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)（易） | [C++](Leetcode/Array&String/1_two-sum/main.cpp)              | 暴力破解✔️、哈希表         |
-| [15. 三数之和](https://leetcode-cn.com/problems/3sum/)（中） | [解题](Leetcode/Array&String/15_3sum/readme.md)、[C++](Leetcode/Array&String/15_3sum/main.cpp)、[python](Leetcode/Array&String/15_3sum/main.py) | 排序+双指针✔️              |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)（易） | [C++](Leetcode/Array&String/Array/1_two-sum/main.cpp)              | 暴力破解✔️、哈希表         |
+| [15. 三数之和](https://leetcode-cn.com/problems/3sum/)（中） | [解题](Leetcode/Array&String/Array/15_3sum/readme.md)、[C++](Leetcode/Array&String/Array/15_3sum/main.cpp)、[python](Leetcode/Array&String/Array/15_3sum/main.py) | 排序+双指针✔️              |
 | [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)（易） | [解题](Leetcode/Array&String/26_remove-duplicates-from-sorted-array/readme.md)、[C++](Leetcode/Array&String/26_remove-duplicates-from-sorted-array/readme.md) | 双指针✔️                   |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [解题](Leetcode/Array&String/33_search-in-rotated-sorted-array/readme.md)、[C++](Leetcode/Array&String/33_search-in-rotated-sorted-array/main.cpp) | 二分查找✔️                 |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [解题](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/readme.md)、[C++](Leetcode/Sort&Search/34_find-first-and-last-position-of-element-in-sorted-array/main.cpp) | 二分查找✔️                 |
@@ -56,15 +56,15 @@
 
 | 题目名称（难度）                                             | 解题说明、源码                                               | 实现的方法      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
-| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)（易） | [解题说明](Leetcode/String/344_reverse-string/344_reverse-string.md)、[C++](Leetcode/String/344_reverse-string/main.cpp) | 双指针✔️         |
-| [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)（易） | [解题说明](Leetcode/String/7_reverse-integer/7_reverse-integer.md)、[C++](Leetcode/String/7_reverse-integer/main.cpp) | 数字法✔️         |
-| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)（易） | [解题说明](Leetcode/String/387_first-unique-character-in-a-string/387_first-unique-character-in-a-string.md)、[C++](Leetcode/String/387_first-unique-character-in-a-string/main.cpp) | hash表✔️         |
-| [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)（易） | [解题说明](Leetcode/String/242_valid-anagram/242_valid-anagram.md)、[C++](Leetcode/String/242_valid-anagram/main.cpp) | hash表✔️、排序   |
-| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)（易） | [解题说明](Leetcode/String/125_valid-palindrome/125_valid-palindrome.md)、[C++](Leetcode/String/125_valid-palindrome/main.cpp) | 双指针✔️         |
-| [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)（中～难） | [解题说明](Leetcode/String/8_string-to-integer-atoi/8_string-to-integer-atoi.md)、[C++](Leetcode/String/8_string-to-integer-atoi/main.cpp) | 逻辑式✔️、自动机 |
-| [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)（易） | [解题说明](Leetcode/String/28_implement-strstr/28_implement-strstr.md)、[C++](Leetcode/String/28_implement-strstr/main.cpp) | 简单匹配✔️       |
-| [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)（中） | [解题说明](Leetcode/String/38_count-and-say/38_count-and-say.md)、[C++](Leetcode/String/38_count-and-say/main.cpp) | 分治法✔️         |
-| [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)（易） | [解题说明](Leetcode/String/14_longest_common_prefix/14_longest-common-prefix.md)、[C++](Leetcode/String/14_longest_common_prefix/main.cpp) | 纵向扫描✔️       |
+| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)（易） | [解题说明](Leetcode/Array&String/String/344_reverse-string/344_reverse-string.md)、[C++](Leetcode/Array&String/String/344_reverse-string/main.cpp) | 双指针✔️         |
+| [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)（易） | [解题说明](Leetcode/Array&String/String/7_reverse-integer/7_reverse-integer.md)、[C++](Leetcode/Array&String/String/7_reverse-integer/main.cpp) | 数字法✔️         |
+| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)（易） | [解题说明](Leetcode/Array&String/String/387_first-unique-character-in-a-string/387_first-unique-character-in-a-string.md)、[C++](Leetcode/Array&String/String/387_first-unique-character-in-a-string/main.cpp) | hash表✔️         |
+| [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)（易） | [解题说明](Leetcode/Array&String/String/242_valid-anagram/242_valid-anagram.md)、[C++](Leetcode/Array&String/String/242_valid-anagram/main.cpp) | hash表✔️、排序   |
+| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)（易） | [解题说明](Leetcode/Array&String/String/125_valid-palindrome/125_valid-palindrome.md)、[C++](Leetcode/Array&String/String/125_valid-palindrome/main.cpp) | 双指针✔️         |
+| [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)（中～难） | [解题说明](Leetcode/Array&String/String/8_string-to-integer-atoi/8_string-to-integer-atoi.md)、[C++](Leetcode/Array&String/String/8_string-to-integer-atoi/main.cpp) | 逻辑式✔️、自动机 |
+| [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)（易） | [解题说明](Leetcode/Array&String/String/28_implement-strstr/28_implement-strstr.md)、[C++](Leetcode/Array&String/String/28_implement-strstr/main.cpp) | 简单匹配✔️       |
+| [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)（中） | [解题说明](Leetcode/Array&String/String/38_count-and-say/38_count-and-say.md)、[C++](Leetcode/Array&String/String/38_count-and-say/main.cpp) | 分治法✔️         |
+| [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)（易） | [解题说明](Leetcode/Array&String/String/14_longest_common_prefix/14_longest-common-prefix.md)、[C++](Leetcode/Array&String/String/14_longest_common_prefix/main.cpp) | 纵向扫描✔️       |
 
 ## 链表
 
@@ -107,7 +107,7 @@
 
 | 题目名称                                                     | 文件位置（解题、源码）                                       | 实现的方法             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- |
-| [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [解题说明](Leetcode/Other/20_valid-parentheses/20_valid-parentheses.md)、[c++](Leetcode/Other/20_valid-parentheses/20_valid-parentheses.cpp)、[python](Leetcode/Other/20_valid-parentheses/20_vaild-parentheses.py) | 栈匹配✔️                |
+| [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [解题说明](Leetcode/Other/20_valid-parentheses/readme.md)、[c++](Leetcode/Other/20_valid-parentheses/main.cpp)、[python](Leetcode/Other/20_valid-parentheses/main.py) | 栈匹配✔️                |
 | [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | [解题说明](Leetcode/Other/190_reverse-bits/190_reverse-bits.md)、[code](Leetcode/Other/190_reverse-bits/main.cpp) | 逐位颠倒✔️、位运算分治  |
 | [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [解题说明](Leetcode/Other/119_number-of-1-bits/119_number-of-1-bits.md)、[code](Leetcode/Other/119_number-of-1-bits/main.cpp) | 循环检查✔️、位运算优化✔️ |
 | [缺失数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | [解题说明](Leetcode/Other/xxx_missing-number/xxx_missing-number.md)、[code](Leetcode/Other/xxx_missing-number/main.cpp) | 异或运算✔️              |

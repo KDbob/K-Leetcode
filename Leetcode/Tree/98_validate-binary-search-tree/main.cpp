@@ -20,7 +20,7 @@ bool valid(TreeNode *node, long long lower, long long upper) {
     if (node == nullptr) {
         return true;
     }
-    if (node->val <=lower || node->val >= upper) {
+    if (node->val <= lower || node->val >= upper) {
         return false;
     }
     return valid(node->left, lower, node->val) && valid(node->right, node->val, upper);

@@ -48,14 +48,14 @@ int main() {
     string string1 = "3+2*2";
     int result1 = calculate(string1);
     printf("%d\n", result1);
-
-    string string2 = " 3/2 ";
-    int result2 = calculate(string2);
-    printf("%d\n", result2);
-
-    string string3 = "42";
-    int result3 = calculate(string3);
-    printf("%d\n", result3);
+//
+//    string string2 = " 3/2 ";
+//    int result2 = calculate(string2);
+//    printf("%d\n", result2);
+//
+//    string string3 = "42";
+//    int result3 = calculate(string3);
+//    printf("%d\n", result3);
 
     string string4 = "3+2*2-5/2";
     int result4 = calculate(string4);

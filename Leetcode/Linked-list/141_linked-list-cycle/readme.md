@@ -106,7 +106,7 @@ bool hasCycle2(ListNode *head) {
     ListNode *slow = head;
     ListNode *fast = head->next;
     while (slow != fast) {
-        if (fast->next == nullptr || fast->next == nullptr) {   // 这里只需要判断fash的后两个是否为空即可
+        if (fast->next == nullptr || fast->next == nullptr) {   // 这里只需要判断fast的后两个是否为空即可
             return false;
         }
         slow = slow->next;

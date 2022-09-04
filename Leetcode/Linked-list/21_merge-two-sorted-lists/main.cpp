@@ -3,17 +3,10 @@
 // Update by kaide on 2021/7/4
 
 #include <iostream>
+#include "KStruct.h"
 
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    ListNode(int x) : val(x), next(NULL) {}
-
-    ListNode(int x, ListNode *next) : val (x), next(next) {}
-};
 
 /**
  * 将两个升序链表合并为一个新的 升序 链表并返回
@@ -68,6 +61,7 @@ void test(ListNode *merge) {
         printf("->%d", merge->val);
         merge = merge->next;
     }
+    printf("\n");
 }
 
 int main() {

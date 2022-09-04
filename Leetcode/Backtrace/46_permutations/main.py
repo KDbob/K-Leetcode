@@ -7,7 +7,7 @@ class Solution:
 
         def backtrace(index: int):
             if index == len(nums):
-                permutes.append(permute[:])  # 注：permutes.append(permute) 写法是错误的，相当于深拷贝。但是需求是只需要数组里的值，而不是引用
+                permutes.append(permute[:])  # 注：permutes.append(permute) 写法是错误的，相当于浅拷贝。但是需求是只需要数组里的值，而不是引用需要深拷贝
             else:
                 for num in nums:
                     if not permute.__contains__(num):
