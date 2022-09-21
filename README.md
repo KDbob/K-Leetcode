@@ -56,7 +56,7 @@
 
 | 题目名称（难度）                                             | 解题说明、源码                                               | 实现的方法      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
-| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)（易） | [解题说明](Leetcode/Array&String/String/344_reverse-string/344_reverse-string.md)、[C++](Leetcode/Array&String/String/344_reverse-string/main.cpp) | 双指针✔️         |
+| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)（易） | [解题说明](Leetcode/Array&String/String/Pointer/344_reverse-string/readme.md)、[C++](Leetcode/Array&String/String/Pointer/344_reverse-string/main.cpp) | 双指针✔️         |
 | [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)（易） | [解题说明](Leetcode/Array&String/String/7_reverse-integer/7_reverse-integer.md)、[C++](Leetcode/Array&String/String/7_reverse-integer/main.cpp) | 数字法✔️         |
 | [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)（易） | [解题说明](Leetcode/Array&String/String/387_first-unique-character-in-a-string/387_first-unique-character-in-a-string.md)、[C++](Leetcode/Array&String/String/387_first-unique-character-in-a-string/main.cpp) | hash表✔️         |
 | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)（易） | [解题说明](Leetcode/Array&String/String/242_valid-anagram/242_valid-anagram.md)、[C++](Leetcode/Array&String/String/242_valid-anagram/main.cpp) | hash表✔️、排序   |
@@ -64,7 +64,7 @@
 | [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)（中～难） | [解题说明](Leetcode/Array&String/String/8_string-to-integer-atoi/8_string-to-integer-atoi.md)、[C++](Leetcode/Array&String/String/8_string-to-integer-atoi/main.cpp) | 逻辑式✔️、自动机 |
 | [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)（易） | [解题说明](Leetcode/Array&String/String/28_implement-strstr/28_implement-strstr.md)、[C++](Leetcode/Array&String/String/28_implement-strstr/main.cpp) | 简单匹配✔️       |
 | [38. 外观数列](https://leetcode-cn.com/problems/count-and-say/)（中） | [解题说明](Leetcode/Array&String/String/38_count-and-say/38_count-and-say.md)、[C++](Leetcode/Array&String/String/38_count-and-say/main.cpp) | 分治法✔️         |
-| [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)（易） | [解题说明](Leetcode/Array&String/String/14_longest_common_prefix/14_longest-common-prefix.md)、[C++](Leetcode/Array&String/String/14_longest_common_prefix/main.cpp) | 纵向扫描✔️       |
+| [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)（易） | [解题说明](Leetcode/Array&String/String/14_longest_common_prefix/readme.md)、[C++](Leetcode/Array&String/String/14_longest_common_prefix/main.cpp) | 纵向扫描✔️       |
 
 ## 链表
 

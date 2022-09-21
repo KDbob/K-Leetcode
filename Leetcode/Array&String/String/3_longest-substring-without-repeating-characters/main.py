@@ -1,19 +1,22 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
-        occ = set()
-        rk, ans = -1, 0
-        for k in range(n):
-            if k != 0:
-                occ.remove(s[k - 1])  # 移除滑动窗口上个起始的元素
-            while rk + 1 < n and s[rk + 1] not in occ:
-                occ.add(s[rk + 1])
+        current = set()
+        cnt = 0
+        rk = -1
+        for i in range(n):
+            if i != 0:
+                current.remove(s[i - 1])
+
+            while rk + 1 < n and s[rk + 1] not in current:
+                current.add(s[rk + 1])
                 rk += 1
-            ans = max(rk - k + 1, ans)
-        return ans
+
+            cnt = max(cnt, rk + 1 - i)
+        return cnt
 
 
 if __name__ == '__main__':
     s = "abcabcbb"
-    res = Solution().lengthOfLongestSubstring(s)
+    res = Solution().lengthOfLongestSubstring(s)  # expect: 3
     print(res)

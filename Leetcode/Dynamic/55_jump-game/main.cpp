@@ -41,7 +41,7 @@ public:
 
 int main() {
     vector<int> nums = {2, 3, 1, 1, 4};
-    bool res = Solution().canJump2(nums);
+    bool res = Solution().canJump(nums);
     if (res) {
         printf("可以到达");
     } else {
